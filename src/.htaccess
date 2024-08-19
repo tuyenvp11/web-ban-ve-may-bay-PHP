@@ -1,0 +1,8 @@
+RewriteEngine On
+
+RewriteRule ^PhuQuoc.Express index.php
+RewriteRule ^PhuQuocExpress$ index.php?ctrl=TrangChu
+RewriteRule ^DatVe$ index.php?ctrl=DatVe
+RewriteRule ^HuongDan$ index.php?ctrl=HuongDan
+RewriteRule ^DangKy$ index.php?ctrl=DangKy
+RewriteRule ^LienHe$ index.php?ctrl=LienHe
